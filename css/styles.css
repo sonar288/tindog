@@ -1,0 +1,159 @@
+body{
+  font-family:"Montserrat-black";
+  text-align: center;
+}
+
+#title .container-fluid{
+  padding: 3% 15% 10%;
+}
+#title{
+  text-align:left;
+}
+h1,h2,h3,h4,h5,h6{
+font-family:"Montserrat";
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+.bold{
+  font-size: 1.5rem;
+}
+/* colored section */
+
+.color-section{
+  background-color:#ff4c68;
+  color:#fff;
+}
+.white-section{
+    background-color: #fff;
+
+}
+/* Heading */
+.title-heading{
+  font-size: 4rem;
+  line-height: 1.2;
+}
+.pricing-heading{
+  font-size: 2.5rem ;
+}
+
+/* navigationbar */
+.nav-bar{
+  font-family: "Ubuntu";
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0 0 2.5rem;
+
+}
+.nav-item{
+  padding:0 0 18px 18px;
+}
+/* Download button */
+.Download-btn{
+  margin:5% 3% 5% 0;
+}
+/* title image */
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+position: absolute;
+
+}
+
+.positioning{
+  position: relative;
+}
+@media (max-width:992px) {
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+
+
+}
+
+#features{
+position: relative;
+z-index:1;
+
+}
+.color{
+  color:#8f8f8f;
+}
+.size{
+  font-family: "Montserrat-bold";
+  font-size: 1.5rem;
+}
+.imogi{
+  color: #ef8172;
+  margin: 1rem;
+
+}
+
+.feature-box{
+    padding: 5%;
+}
+.imogi:hover{
+  color:#ff4c68;
+}
+   /* Testimonials  */
+
+   .color-testimonial{
+     background-color:#ef8172;
+     color:white;
+   }
+   .testimonial-text{
+     font-size: 2.5rem ;
+    line-height: 1;
+   }
+.testtmonial-img{
+  width:10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press */
+#press{
+  background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* pricing */
+#pricing{
+  padding: 100px;
+  text-align:center;
+}
+.pricing-text{
+  font-size: 2.5rem ;
+}
+.price-tag{
+  }
+.priceing-col{
+  padding: 3% 2%;
+}
+/* <!-- Call to Action --> */
+#cta{
+  font-family: "Montserrat";
+  text-align:center;
+}
+
+
+.btn{
+  font-family: "Montserrat-black";
+}
+/* fotter section */
+#footer{
+    font-size: 20px;
+  padding: 100px;
+}
+.fa{
+  padding: 20px 10px;
+}
+.Copyright{
+  color: grey;
+
+}
